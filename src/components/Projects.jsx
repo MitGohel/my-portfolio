@@ -4,20 +4,20 @@ const Projects = () => {
       title: 'Personal Portfolio',
       stack: 'TBD',
       badge: 'In Progress',
-      image: '/blurred-project.jpg',
+      image: '/my-portfolio/blurred-project.jpg',
       comingSoon: true
     },
     {title: 'Fantasy Football MitPicks',
       stack: 'TBD',
       badge: 'In Progress',
-      image: '/blurred-project.jpg',
+      image: '/my-portfolio/blurred-project.jpg',
       comingSoon: true
     },
     {
       title: 'Project 3',
       stack: 'TBD',
       badge: 'In Progress',
-      image: '/blurred-project.jpg',
+      image: '/my-portfolio/blurred-project.jpg',
       comingSoon: true
     }
     // Add more projects here

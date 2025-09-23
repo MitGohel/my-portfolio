@@ -339,6 +339,21 @@ body.dark .gradient-name {
   filter: grayscale(0%);
 }
 
+/* About Me section specific styling */
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* Optional: dark/light mode glow */
 body.dark .internship-logos img:hover {
   filter: grayscale(0%) drop-shadow(0 0 5px #00c6ff);
@@ -346,6 +361,33 @@ body.dark .internship-logos img:hover {
 
 body:not(.dark) .internship-logos img:hover {
   filter: grayscale(0%) drop-shadow(0 0 5px #6a11cb);
+}
+
+/* Typing Animation Styles */
+.typing-text {
+  display: inline-block;
+  min-width: 200px;
+  text-align: left;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: #667eea;
+  font-weight: 300;
+}
+
+body.dark .cursor {
+  color: #00c6ff;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Ensure the typing animation has proper spacing */
+h1 .typing-text {
+  margin-left: 0.5rem;
 }
 
 
