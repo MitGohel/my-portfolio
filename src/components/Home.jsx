@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <section id="home">
-      <img src="/my-portfolio/profile.jpg" alt="Mit Gohel" className="profile-pic" />
+        <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Mit Gohel" className="profile-pic" />
       <h1>
         I'm <span className="gradient-name">Mit Gohel</span>,{' '}
         <TypingAnimation texts={titles} speed={80} deleteSpeed={40} pauseTime={1500} />
